@@ -14,19 +14,16 @@
  */
 
 const whatToDoForLunch = function(hungry, availableTime) {
-    if (hungry === false){
-        console.log("I need to get back to work.");
-    }
-    else if (availableTime < 20){
-        console.log("I'll pick something up and eat it in the lab.");
-    }
-    else if (availableTime >= 20 && availableTime <= 30){
-        console.log("I'll try a place nearby.");
-    }
-    else {
-        console.log("I'm in a bootcamp and I should reconsider how much time I actually have to spare.");
-    }
-}
+  if (hungry === false) {
+    console.log("I need to get back to work.");
+  } else if (availableTime < 20) {
+    console.log("I'll pick something up and eat it in the lab.");
+  } else if (availableTime >= 20 && availableTime <= 30) {
+    console.log("I'll try a place nearby.");
+  } else {
+    console.log("I'm in a bootcamp and I should reconsider how much time I actually have to spare.");
+  }
+};
 
 
 /*
